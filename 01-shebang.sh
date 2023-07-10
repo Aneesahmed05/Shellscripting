@@ -1,4 +1,7 @@
 #!/bin/bash
 
 echo welcome to the devops
-echo finally created the account
+
+echo Line1
+echo Line2
+echo Line3
