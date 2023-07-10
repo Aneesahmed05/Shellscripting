@@ -9,3 +9,5 @@ echo Line3
 
 
 echo -e "line1:Hello\nline2:Welcome to devops"
+
+echo -e "line1:Hello\nl\tline2:Welcome to devops"
