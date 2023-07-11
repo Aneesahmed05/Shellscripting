@@ -5,4 +5,4 @@
 
 
 
-echo -e "\e["32m Welcome to cloudtopia \e[0"
+echo -e "\e[32m Welcome to cloudtopia \e[0"
