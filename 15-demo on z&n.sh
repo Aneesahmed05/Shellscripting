@@ -1,8 +1,8 @@
 #!/bin/bash 
 
-a=10
 
-if  [ -n "$a" ] ; then 
+
+if  [ -n;-z "$a" ] ; then 
     echo "Value of a is declared"
 
 else 
