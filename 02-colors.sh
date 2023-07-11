@@ -15,4 +15,4 @@ echo -e "\e[34m Welcome to cloudtopia \e[0m"
 
 
 
-echo -e "\e[31;32m Welcome to cloudtopia \e[0m"
+echo -e "\e[43;32m Welcome to cloudtopia \e[0m"
