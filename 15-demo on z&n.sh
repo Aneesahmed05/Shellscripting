@@ -2,7 +2,7 @@
 
 
 
-if  [ -n;-z "$a" ] ; then 
+if  [ -z "$a" ] ; then 
     echo "Value of a is declared"
 
 else 
