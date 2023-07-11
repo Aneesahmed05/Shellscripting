@@ -18,7 +18,7 @@ sample() {
 
     echo "Calling sample function"
 
-    # exit 2 
+    # exit 2      ------>if it exits it will directly exit out from the script and it will not call stat
     return 
 
     sample 
