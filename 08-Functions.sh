@@ -21,8 +21,14 @@ status() {
     echo -e "Good Morning and todays date is \e[32m $(date +%F)  \e[0m"
     echo -e "Number of opened sessions : \e[32m $(who | wc -l) \e[0m"    
     echo -e "Load Average on the system from last 1 minute is $(uptime | awk -F , '{print  $3}' | awk -F : '{print $2}')"
+    echo "Calling anees Function"
+    anees
 }
 
+anees() {
+    echo welcome to cloudtopia
+    echo -e "\e[43;32m Welcome to cloudtopia \e[0m"
+}
 # This is how you can call a function 
 
 sample 
@@ -47,7 +53,3 @@ sample
 
 
 
-anees() {
-    echo welcome to cloudtopia
-    echo -e "\e[43;32m Welcome to cloudtopia \e[0m"
-}
