@@ -28,3 +28,26 @@ status() {
 sample 
 
 # calling status function
+
+
+
+#output
+
+#[ centos@workstation ~/Shellscripting ]$ bash 08-Functions.sh 
+#I am a sample function with name sample
+#I am executing the sample function
+#Sample function is completed
+#Calling Status Function
+#Good Morning and todays date is  2023-07-11  
+#Number of opened sessions :  1 
+#Load Average on the system from last 1 minute is 
+
+
+
+
+
+
+anees() {
+    echo welcome to cloudtopia
+    echo -e "\e[43;32m Welcome to cloudtopia \e[0m"
+}
