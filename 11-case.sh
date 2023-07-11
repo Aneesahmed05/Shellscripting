@@ -32,3 +32,23 @@ esac
 
 
 #  exit : exit command helps us to take the script executing out of the script.
+
+
+
+#------------------------------------------------------------------
+4.167.110.127 | 172.31.85.100 | t2.micro | https://github.com/Aneesahmed05/Shellscripting.git
+[ centos@workstation ~/Shellscripting ]$ bash 11-case.sh 
+ Possible values are start or stop or restart only 
+
+54.167.110.127 | 172.31.85.100 | t2.micro | https://github.com/Aneesahmed05/Shellscripting.git
+[ centos@workstation ~/Shellscripting ]$ bash 11-case.sh start
+ Starting RabbitMQ Service 
+
+54.167.110.127 | 172.31.85.100 | t2.micro | https://github.com/Aneesahmed05/Shellscripting.git
+[ centos@workstation ~/Shellscripting ]$ bash 11-case.sh stop
+ Stopping RabbitMQ Service 
+
+54.167.110.127 | 172.31.85.100 | t2.micro | https://github.com/Aneesahmed05/Shellscripting.git
+[ centos@workstation ~/Shellscripting ]$ bash 11-case.sh restart
+ Restarting RabbitMQ Service 
+
