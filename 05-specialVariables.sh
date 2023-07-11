@@ -3,4 +3,4 @@
 
 a=10000
 
-the value of a is ${a}
+echo the value of a is ${a}
